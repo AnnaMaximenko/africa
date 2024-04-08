@@ -1,6 +1,6 @@
 @import "../scss/vars";
 @import "../scss/mixin";
-// @import "../scss/index";
+@import "../scss/index";
 @import "../scss/header-footer";
 
 * {
@@ -26,6 +26,10 @@ li {
 .center {
   padding-left: calc(50% - $siteWidth / 2);
   padding-right: calc(50% - $siteWidth / 2);
+}
+.centerMax {
+  padding-left: calc(50% - $siteWidthMax / 2);
+  padding-right: calc(50% - $siteWidthMax / 2);
 }
 
 @media (max-width: 1200px) {

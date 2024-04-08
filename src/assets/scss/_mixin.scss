@@ -5,6 +5,13 @@
   gap: $gap;
   flex-wrap: wrap;
 }
+@mixin lineLeftUp($gap) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: $gap;
+  flex-wrap: wrap;
+}
 
 @mixin ColumnLeft($gap) {
   display: flex;
