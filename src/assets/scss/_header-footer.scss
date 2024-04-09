@@ -48,6 +48,7 @@
   min-height: 511px;
   @include ColumnLeft(20px);
   padding: 30px 47px 78px 62px;
+  z-index: 100;
   &__title {
     color: $colorOrange;
     font-weight: 600;
