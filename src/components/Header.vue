@@ -17,6 +17,7 @@
           <button @click="show = !show" key="menu" class="header__button">
             PLAN A TRIP
           </button>
+
           <form v-if="show" id="myDropdown" class="form">
             <h3 class="form__title">Application form</h3>
             <input
