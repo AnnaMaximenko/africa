@@ -1,0 +1,28 @@
+.section-three {
+  padding-top: 99px;
+  background-color: $colorWhite;
+  &__contain {
+    @include ColumnLeft(81px);
+  }
+  &__wrapper {
+    @include Flex(81px);
+  }
+  &__inner {
+    @include Flex(14px);
+  }
+  &__number {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 60%;
+    color: $colorOrange;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: $colorGreen;
+  }
+}
+.subtitle__wrapper {
+  margin-bottom: 73px;
+}

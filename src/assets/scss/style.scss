@@ -1,6 +1,11 @@
 @import "../scss/vars";
 @import "../scss/mixin";
-@import "../scss/index";
+@import "../scss/section-1";
+@import "../scss/section-2";
+@import "../scss/section-3";
+@import "../scss/section-4";
+@import "../scss/section-5";
+@import "../scss/common-styles";
 @import "../scss/header-footer";
 
 * {
@@ -32,21 +37,21 @@ li {
   padding-right: calc(50% - $siteWidthMax / 2);
 }
 
-@media (max-width: 1200px) {
-  .center {
-    padding-left: calc(50% - $siteWidthTable / 2);
-    padding-right: calc(50% - $siteWidthTable / 2);
-  }
-}
-@media (max-width: 767px) {
-  .center {
-    padding-left: calc(50% - $siteWidthMobileBig / 2);
-    padding-right: calc(50% - $siteWidthMobileBig / 2);
-  }
-}
-@media (max-width: 450px) {
-  .center {
-    padding-left: calc(50% - $siteWidthMobile / 2);
-    padding-right: calc(50% - $siteWidthMobile / 2);
-  }
-}
+// @media (max-width: 1200px) {
+//   .center {
+//     padding-left: calc(50% - $siteWidthTable / 2);
+//     padding-right: calc(50% - $siteWidthTable / 2);
+//   }
+// }
+// @media (max-width: 767px) {
+//   .center {
+//     padding-left: calc(50% - $siteWidthMobileBig / 2);
+//     padding-right: calc(50% - $siteWidthMobileBig / 2);
+//   }
+// }
+// @media (max-width: 450px) {
+//   .center {
+//     padding-left: calc(50% - $siteWidthMobile / 2);
+//     padding-right: calc(50% - $siteWidthMobile / 2);
+//   }
+// }
