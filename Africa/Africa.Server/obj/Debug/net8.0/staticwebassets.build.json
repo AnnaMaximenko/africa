@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "2m+r0GN2G4jhKm+gAJMYXgiTpSr42ZpOQDHDvBiS9Ok=",
+  "Source": "Africa.Server",
+  "BasePath": "_content/Africa.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\africa.client.esproj",
+      "Version": 2,
+      "Source": "africa.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
