@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s5pyTJUpgDVn09rE2vFL8FWvzjH8Ix8C00lSx4uFbifLPV8fdzRWp4Sznwc4oWDVp03GLi9mfgf73+ACibSMGQ==",
+  "dgSpecHash": "/mCf9xGrALjDqZ1LHNr+kfcBIZA40DYkfwiUYmhMB0YvdqSvR9MlzRlymir2RlKKqEv7I50ehpllFTnriaVKEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Africa.Server.csproj",
+  "projectFilePath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lizau\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\lizau\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

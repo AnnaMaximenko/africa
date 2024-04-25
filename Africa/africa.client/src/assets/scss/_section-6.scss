@@ -1,0 +1,71 @@
+.section-six {
+  padding-top: 105px;
+  padding-bottom: 10px;
+  &__subtitle {
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 136%;
+    color: $colorWhite;
+    margin-bottom: 44px;
+  }
+  &__box {
+    @include Flex(0px);
+  }
+  &__hr {
+    @include Hr;
+    width: 210px;
+    margin-bottom: 40px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: $colorWhite;
+    margin-bottom: 49px;
+  }
+
+  &__picture {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  &__slider {
+    @include Picture();
+    width: 822px;
+    height: 493px;
+    background-image: url(../img/section-5__lion.webp);
+    border-radius: 150px 0 0 0;
+    position: relative;
+    z-index: 2;
+  }
+  &__ornament {
+    @include Picture();
+    background-image: url(../img/section-5_ornament.webp);
+    width: 606px;
+    height: 345px;
+    position: absolute;
+    bottom: 0;
+    right: -149px;
+    z-index: 1;
+  }
+  &__button-box {
+    width: 100%;
+    @include Flex(30px);
+  }
+  &__button {
+    min-width: 141px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 136%;
+    color: $colorTextMain;
+    background-color: $colorMain;
+    border: none;
+    border-bottom: 2px solid $colorGreen;
+    padding-bottom: 7px;
+    @include lineLeftUp(0);
+    cursor: pointer;
+  }
+}

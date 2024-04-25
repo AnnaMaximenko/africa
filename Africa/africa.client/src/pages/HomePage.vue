@@ -15,6 +15,7 @@ import Section2Html from "@/components/Section2Html.vue";
 import Section3Html from "@/components/Section3Html.vue";
 import Section4Html from "@/components/Section4Html.vue";
 import Section5Html from "@/components/Section5Html.vue";
+import Section5Html from "@/components/Section6Html.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {

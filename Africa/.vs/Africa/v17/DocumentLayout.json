@@ -3,72 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\lizau\\repos\\africa\\Africa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\migrations\\applicationscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\migrations\\applicationscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\migrations\\20240424021231_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\migrations\\20240424021231_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\data\\applicationscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\data\\applicationscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\data\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\data\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C279F052-293E-41C0-BBB8-EC6F708C4E77}|Africa.Server\\Africa.Server.csproj|solutionrelative:africa.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\router\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\router\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\pages\\homepage.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\pages\\homepage.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\.eslintrc.cjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\.eslintrc.cjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\section6html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\section6html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-5.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-5.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\footer.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\footer.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\header.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\header.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\thewelcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\thewelcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,212 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationsContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Migrations\\ApplicationsContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Migrations\\ApplicationsContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Migrations\\ApplicationsContextModelSnapshot.cs",
-              "RelativeToolTip": "Africa.Server\\Migrations\\ApplicationsContextModelSnapshot.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:21:26.679Z",
+              "DocumentIndex": 4,
+              "Title": "_section-5.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-5.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-5.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-25T22:14:30.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240424021231_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Migrations\\20240424021231_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Migrations\\20240424021231_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Migrations\\20240424021231_InitialCreate.cs",
-              "RelativeToolTip": "Africa.Server\\Migrations\\20240424021231_InitialCreate.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:21:19.845Z"
+              "DocumentIndex": 3,
+              "Title": "_section-6.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-6.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-6.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-25T22:13:16.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Africa.Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Africa.Server\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T01:54:16.722Z"
+              "DocumentIndex": 5,
+              "Title": "style.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\style.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\style.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\style.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\style.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-25T22:13:14.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Africa.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\appsettings.json",
-              "RelativeToolTip": "Africa.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T01:53:07.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "HomePage.vue",
               "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\pages\\HomePage.vue",
               "RelativeDocumentMoniker": "africa.client\\src\\pages\\HomePage.vue",
               "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\pages\\HomePage.vue",
               "RelativeToolTip": "africa.client\\src\\pages\\HomePage.vue",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-24T01:47:38.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\router\\index.js",
-              "RelativeDocumentMoniker": "africa.client\\src\\router\\index.js",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\router\\index.js",
-              "RelativeToolTip": "africa.client\\src\\router\\index.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-24T01:46:50.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationsController.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Controllers\\ApplicationsController.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Controllers\\ApplicationsController.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Controllers\\ApplicationsController.cs",
-              "RelativeToolTip": "Africa.Server\\Controllers\\ApplicationsController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAiwEsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:37:46.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Program.cs",
-              "RelativeToolTip": "Africa.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:35:46.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationsContext.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Data\\ApplicationsContext.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Data\\ApplicationsContext.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Data\\ApplicationsContext.cs",
-              "RelativeToolTip": "Africa.Server\\Data\\ApplicationsContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:33:11.739Z"
+              "WhenOpened": "2024-04-25T22:11:36.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Application.cs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Data\\Application.cs",
-              "RelativeDocumentMoniker": "Africa.Server\\Data\\Application.cs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Data\\Application.cs",
-              "RelativeToolTip": "Africa.Server\\Data\\Application.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:32:22.435Z"
+              "Title": "Footer.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Footer.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\Footer.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Footer.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\Footer.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:10:51.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Header.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Header.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\Header.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Header.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\Header.vue",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:10:43.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HelloWorld.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\HelloWorld.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\HelloWorld.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\HelloWorld.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\HelloWorld.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:10:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TheWelcome.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\TheWelcome.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\TheWelcome.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\TheWelcome.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\TheWelcome.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:10:05.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\.gitignore",
-              "RelativeDocumentMoniker": "africa.client\\.gitignore",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\.gitignore",
-              "RelativeToolTip": "africa.client\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-24T01:29:25.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": ".eslintrc.cjs",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\.eslintrc.cjs",
-              "RelativeDocumentMoniker": "africa.client\\.eslintrc.cjs",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\.eslintrc.cjs",
-              "RelativeToolTip": "africa.client\\.eslintrc.cjs",
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\main.css",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\main.css",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\main.css",
+              "RelativeToolTip": "africa.client\\src\\assets\\main.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-24T01:29:22.88Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-25T22:09:49.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\index.html",
-              "RelativeDocumentMoniker": "africa.client\\index.html",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\index.html",
-              "RelativeToolTip": "africa.client\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-24T01:29:08.399Z"
+              "DocumentIndex": 1,
+              "Title": "Section5Html.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section5Html.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\Section5Html.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section5Html.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\Section5Html.vue",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:04:33.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "nuget.config",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\nuget.config",
-              "RelativeDocumentMoniker": "africa.client\\nuget.config",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\nuget.config",
-              "RelativeToolTip": "africa.client\\nuget.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-24T01:28:36.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "jsconfig.json",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\jsconfig.json",
-              "RelativeDocumentMoniker": "africa.client\\jsconfig.json",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\jsconfig.json",
-              "RelativeToolTip": "africa.client\\jsconfig.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T01:28:35.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\package.json",
-              "RelativeDocumentMoniker": "africa.client\\package.json",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\package.json",
-              "RelativeToolTip": "africa.client\\package.json",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwB4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-24T01:24:00.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\vite.config.js",
-              "RelativeDocumentMoniker": "africa.client\\vite.config.js",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\vite.config.js",
-              "RelativeToolTip": "africa.client\\vite.config.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-24T01:23:56.53Z"
+              "DocumentIndex": 2,
+              "Title": "Section6Html.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\Section6Html.vue",
+              "RelativeDocumentMoniker": "africa.client\\src\\components\\Section6Html.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\Section6Html.vue",
+              "RelativeToolTip": "africa.client\\src\\components\\Section6Html.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-25T22:03:50.548Z",
+              "EditorCaption": ""
             }
           ]
         }
