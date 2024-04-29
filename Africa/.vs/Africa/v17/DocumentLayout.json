@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lizau\\repos\\africa\\Africa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\pages\\homepage.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\pages\\homepage.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-4.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-4.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\section6html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\section6html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-6.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\_section-5.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\_section-5.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\footer.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\footer.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\header.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\header.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\thewelcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\thewelcome.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\assets\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|c:\\users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F8AB01-200D-468B-AE42-30DA517F4193}|africa.client\\africa.client.esproj|solutionrelative:africa.client\\src\\components\\section5html.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_section-5.scss",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
-              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-5.scss",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
-              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-5.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-25T22:14:30.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_section-6.scss",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
-              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-6.scss",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
-              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-6.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-25T22:13:16.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "style.scss",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\style.scss",
-              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\style.scss",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\style.scss",
-              "RelativeToolTip": "africa.client\\src\\assets\\scss\\style.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-04-25T22:13:14.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomePage.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\pages\\HomePage.vue",
-              "RelativeDocumentMoniker": "africa.client\\src\\pages\\HomePage.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\pages\\HomePage.vue",
-              "RelativeToolTip": "africa.client\\src\\pages\\HomePage.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:11:36.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Footer.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Footer.vue",
-              "RelativeDocumentMoniker": "africa.client\\src\\components\\Footer.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Footer.vue",
-              "RelativeToolTip": "africa.client\\src\\components\\Footer.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:10:51.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Header.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Header.vue",
-              "RelativeDocumentMoniker": "africa.client\\src\\components\\Header.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Header.vue",
-              "RelativeToolTip": "africa.client\\src\\components\\Header.vue",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:10:43.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HelloWorld.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\HelloWorld.vue",
-              "RelativeDocumentMoniker": "africa.client\\src\\components\\HelloWorld.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\HelloWorld.vue",
-              "RelativeToolTip": "africa.client\\src\\components\\HelloWorld.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:10:32.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TheWelcome.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\TheWelcome.vue",
-              "RelativeDocumentMoniker": "africa.client\\src\\components\\TheWelcome.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\TheWelcome.vue",
-              "RelativeToolTip": "africa.client\\src\\components\\TheWelcome.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:10:05.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\main.css",
-              "RelativeDocumentMoniker": "africa.client\\src\\assets\\main.css",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\main.css",
-              "RelativeToolTip": "africa.client\\src\\assets\\main.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-25T22:09:49.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_section-4.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-4.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-4.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-4.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-4.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-26T21:39:14.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Section5Html.vue",
               "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section5Html.vue",
               "RelativeDocumentMoniker": "africa.client\\src\\components\\Section5Html.vue",
               "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section5Html.vue",
               "RelativeToolTip": "africa.client\\src\\components\\Section5Html.vue",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:04:33.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T21:23:04.103Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Section6Html.vue",
-              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\Section6Html.vue",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section6Html.vue",
               "RelativeDocumentMoniker": "africa.client\\src\\components\\Section6Html.vue",
-              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\africa\\africa.client\\src\\components\\Section6Html.vue",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\components\\Section6Html.vue",
               "RelativeToolTip": "africa.client\\src\\components\\Section6Html.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-25T22:03:50.548Z",
+              "WhenOpened": "2024-04-26T21:21:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_section-5.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-5.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-5.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-5.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-26T21:20:56.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_section-6.scss",
+              "DocumentMoniker": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
+              "RelativeDocumentMoniker": "africa.client\\src\\assets\\scss\\_section-6.scss",
+              "ToolTip": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\src\\assets\\scss\\_section-6.scss",
+              "RelativeToolTip": "africa.client\\src\\assets\\scss\\_section-6.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-26T21:20:29.64Z",
               "EditorCaption": ""
             }
           ]

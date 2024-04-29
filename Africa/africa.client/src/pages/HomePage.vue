@@ -1,11 +1,12 @@
 <template>
-  <Header />
-  <Section1Html />
-  <Section2Html />
-  <Section3Html />
-  <Section4Html />
-  <Section5Html />
-  <Footer />
+    <Header />
+    <Section1Html />
+    <Section2Html />
+    <Section3Html />
+    <Section4Html />
+    <Section5Html />
+    <Section6Html />
+    <Footer />
 </template>
 
 <script>
@@ -15,7 +16,7 @@ import Section2Html from "@/components/Section2Html.vue";
 import Section3Html from "@/components/Section3Html.vue";
 import Section4Html from "@/components/Section4Html.vue";
 import Section5Html from "@/components/Section5Html.vue";
-import Section5Html from "@/components/Section6Html.vue";
+import Section6Html from "@/components/Section6Html.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
@@ -25,6 +26,7 @@ export default {
     Section3Html,
     Section4Html,
     Section5Html,
+    Section6Html,
     Footer,
   },
 };
