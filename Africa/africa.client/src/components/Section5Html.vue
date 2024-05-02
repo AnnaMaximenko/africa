@@ -16,7 +16,7 @@
       <p class="subtitle__text_white">DESTINATION</p>
     </div>
     <h2 class="section-five__title">
-      IN AFRICA WE say o amogetswe, you are aways welcome.
+      IN AFRICA WE  SAY O AMOGETSWE, YOU ARE AWAYS WELCOME.
     </h2>
     <div class="section-five__box">
       <div class="section-five__wrapper-left">
