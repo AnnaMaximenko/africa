@@ -27,6 +27,15 @@
     color: $colorWhite;
     margin-bottom: 49px;
   }
+  &__button-main {
+    font-weight: 400;
+    font-size: 20px;
+    color: $colorWhite;
+    border: 1px solid $colorWhite;
+    padding: 20px 30px;
+    background-color: $colorMain;
+    cursor: pointer;
+  }
 
   &__picture {
     position: relative;

@@ -28,7 +28,7 @@
           tempus elementum proin nibh et elit. Mollis euismod cras in diam
           pretium etiam.
         </p>
-        <button>PLAN A TRIP</button>
+        <button class="section-five__button-main">PLAN A TRIP</button>
       </div>
       <div class="section-five__wrapper-right">
         <div class="section-five__picture">

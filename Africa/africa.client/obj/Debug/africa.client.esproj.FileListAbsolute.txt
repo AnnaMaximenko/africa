@@ -1,1 +1,2 @@
 C:\Users\lizau\repos\africa\Africa\africa.client\obj\Debug\africa.client.esproj.CoreCompileInputs.cache
+C:\Users\zheka\Рабочий стол\YandexDisk\africa\Africa\africa.client\obj\Debug\africa.client.esproj.CoreCompileInputs.cache

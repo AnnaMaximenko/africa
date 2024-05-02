@@ -21,7 +21,7 @@
     position: relative;
   }
   &__button {
-    border: 1px solid #f3eedf;
+    border: 1px solid $colorWhite;
     padding: 20px 30px;
     background-color: $colorMain;
     font-weight: 400;
@@ -85,4 +85,35 @@
 
 .show {
   display: block;
+}
+
+.footer {
+  padding-top: 75px;
+  padding-bottom: 69px;
+  &__up {
+    @include lineLeftUp(198px);
+    margin-bottom: 88px;
+  }
+  &__link {
+    @include lineLeftUp(95px);
+  }
+  &__column {
+    @include ColumnLeft(12px);
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 25px;
+    color: $colorWhite;
+  }
+  &__down {
+    margin-bottom: 32px;
+    @include lineLeftCenter(16px);
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 222%;
+    color: $colorWhite;
+    opacity: 0.5;
+  }
 }

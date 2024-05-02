@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <header>
     <div id="app" class="header__wrapper center">
@@ -18,7 +19,14 @@
             PLAN A TRIP
           </button>
 
-          <form action="https://localhost:7272/api/Applications" method="POST" v-if="show" id="myDropdown" class="form">
+          <form
+            action="https://localhost:7272/api/Applications"
+            method="POST"
+            v-if="show"
+            id="myDropdown"
+            class="form"
+            @submit.prevent="send"
+          >
             <h3 class="form__title">Application form</h3>
             <input
               placeholder="Name"
@@ -27,6 +35,7 @@
               type="text"
               name="name"
               id=""
+              v-model.trim="form.name"
             />
             <input
               placeholder="Phone"
@@ -35,6 +44,7 @@
               type="tel"
               name="phone"
               id=""
+              v-model.trim="form.phone"
             />
             <input
               placeholder="E-mail"
@@ -43,8 +53,17 @@
               type="email"
               name=""
               id=""
+              v-model.trim="form.email"
             />
-            <button class="form__button">Send</button>
+            <button type="submit" class="form__button">Send</button>
+
+            <div class="reviews">
+              <ul>
+                <li v-for="item in form" :key="item.id">
+                  <p>{{ item.name }}</p>
+                </li>
+              </ul>
+            </div>
           </form>
         </div>
       </div>
@@ -56,18 +75,35 @@
 export default {
   data() {
     return {
+      name: "",
+      phone: "",
+      email: "",
       rightArr: [
         { id: 0, name: "Destinations", url: "/" },
         { id: 1, name: "About Us", url: "/" },
         { id: 2, name: "Experience", url: "/" },
         { id: 3, name: "Blog", url: "/" },
       ],
-        show: false,
+      show: false,
     };
   },
-        methods: {
-            
-        },
+  methods: {
+    // send() {
+    //   axios.post(
+    //     "http://localhost/priangan/api/user/login",
+    //     {
+    //       name: this.state.name,
+    //       phone: this.state.phone,
+    //       email: this.state.email,
+    //     },
+    //     {
+    //       headers: {
+    //         "Content-type": "application/json; charset=UTF-8",
+    //       },
+    //     }
+    //   );
+    // },
+  },
 };
 </script>
 

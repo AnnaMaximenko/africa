@@ -5,6 +5,8 @@
   <Section3Html />
   <Section4Html />
   <Section5Html />
+  <Section11Html />
+
   <Footer />
 </template>
 
@@ -15,15 +17,19 @@ import Section2Html from "@/components/Section2Html.vue";
 import Section3Html from "@/components/Section3Html.vue";
 import Section4Html from "@/components/Section4Html.vue";
 import Section5Html from "@/components/Section5Html.vue";
+import Section11Html from "@/components/Section11Html.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
+    // eslint-disable-next-line vue/no-reserved-component-names
     Header,
     Section1Html,
     Section2Html,
     Section3Html,
     Section4Html,
     Section5Html,
+    Section11Html,
+    // eslint-disable-next-line vue/no-reserved-component-names
     Footer,
   },
 };

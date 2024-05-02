@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "2m+r0GN2G4jhKm+gAJMYXgiTpSr42ZpOQDHDvBiS9Ok=",
+  "Hash": "cEC30tAQwZWXMna3GX94ARvMflFKTCjSbQs0beNJLbQ=",
   "Source": "Africa.Server",
   "BasePath": "_content/Africa.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\lizau\\repos\\africa\\Africa\\africa.client\\africa.client.esproj",
+      "Identity": "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\africa.client\\africa.client.esproj",
       "Version": 2,
       "Source": "africa.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
