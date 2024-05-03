@@ -29,7 +29,7 @@
                             tempus placerat vitae. Nunc potenti donec blandit quis sit.<br>
                             Faucibus purus odio sit massa id.
                         </p>
-                        <hr class="section-six__hr" />
+                        <hr class="section-seven__hr" />
                     </div>
                     <button>PLAN A TRIP</button>
                     <img class="section-seven__ornament-four" src="../assets/img/section-7_ornament-4.webp" />
