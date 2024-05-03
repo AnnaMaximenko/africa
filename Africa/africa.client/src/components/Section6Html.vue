@@ -1,5 +1,5 @@
 <template>
-    <section id="app" class="section-six center">
+    <section class="section-six center">
         <div class=" section-six__box">
             <div class="section-six__wrapper-left">
                 <div class="subtitle__wrapper">
@@ -20,17 +20,19 @@
                     IN AFRICA WE  SAY O AMOGETSWE,<br>
                     YOU ARE AWAYS WELCOME.
                 </h2>
-                <hr class="section-six__hr" />
-                <p class=" section-six__text">
-                    Sed tincidunt quis amet ut. Augue et pellentesque quis sit tempus placerat<br>
-                    vitae. Nunc potenti donec blandit quis sit. Faucibus purus odio sit massa id.<br>
-                    Dolor quis mauris nisi mauris.<br>
-                    <br>
-                    Eget cursus adipiscing orci posuere erat vitae pretium cursus in. Ornare<br>
-                    iaculis et feugiat viverra neque viverra amet. Est tellus morbi scelerisque<br>
-                    fusce at scelerisque vel aliquam. Est lectus lacus justo dolor faucibus. Elit<br>
-                    scelerisque nunc metus ac ipsum mauris.
-                </p>
+                <div class="section-six__textbox">
+                    <hr class="section-six__hr" />
+                    <p class=" section-six__text">
+                        Sed tincidunt quis amet ut. Augue et pellentesque quis sit tempus placerat<br>
+                        vitae. Nunc potenti donec blandit quis sit. Faucibus purus odio sit massa id.<br>
+                        Dolor quis mauris nisi mauris.<br>
+                        <br>
+                        Eget cursus adipiscing orci posuere erat vitae pretium cursus in. Ornare<br>
+                        iaculis et feugiat viverra neque viverra amet. Est tellus morbi scelerisque<br>
+                        fusce at scelerisque vel aliquam. Est lectus lacus justo dolor faucibus. Elit<br>
+                        scelerisque nunc metus ac ipsum mauris.
+                    </p>
+                </div>
             </div>
         </div>
     </section>

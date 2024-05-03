@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj": {}
+    "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Africa.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj": {
+    "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Africa.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
+        "projectUniqueName": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Africa.Server.csproj",
         "projectName": "Africa.Server",
-        "projectPath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
+        "projectPath": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\Africa.Server.csproj",
         "packagesPath": "C:\\Users\\lizau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\obj\\",
+        "outputPath": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lizau\\AppData\\Roaming\\NuGet\\NuGet.Config",

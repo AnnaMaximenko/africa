@@ -44,7 +44,7 @@
               name=""
               id=""
             />
-            <button class="form__button">Send</button>
+            <button class="form__button" onclick="Do">Send</button>
           </form>
         </div>
       </div>
@@ -66,7 +66,9 @@ export default {
     };
   },
         methods: {
-            
+            DoPost() {
+
+            }
         },
 };
 </script>
