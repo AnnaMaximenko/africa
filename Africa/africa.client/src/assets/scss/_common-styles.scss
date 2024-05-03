@@ -24,6 +24,10 @@
     &__text {
         color: $colorGreen;
         font-family: $titleFontFamily;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 136%;
+        margin-bottom: 44px;
     }
 
     &__text_white {

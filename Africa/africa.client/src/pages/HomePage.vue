@@ -6,6 +6,7 @@
     <Section4Html />
     <Section5Html />
     <Section6Html />
+    <Section7Html />
     <Footer />
 </template>
 
@@ -17,6 +18,7 @@ import Section3Html from "@/components/Section3Html.vue";
 import Section4Html from "@/components/Section4Html.vue";
 import Section5Html from "@/components/Section5Html.vue";
 import Section6Html from "@/components/Section6Html.vue";
+import Section7Html from "@/components/Section7Html.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
@@ -27,6 +29,7 @@ export default {
     Section4Html,
     Section5Html,
     Section6Html,
+    Section7Html,
     Footer,
   },
 };

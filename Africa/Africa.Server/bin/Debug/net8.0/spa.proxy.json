@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\..\\africa.client",
+"WorkingDirectory": "C:\\Users\\lizau\\repos\\africa\\Africa\\Africa.Server\\..\\africa.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

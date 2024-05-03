@@ -1,5 +1,5 @@
 <template>
-  <section id="app" class="section-five center">
+  <section class="section-five center">
     <div class="subtitle__wrapper section-five__subtitle">
       <svg
         width="38"

@@ -16,8 +16,8 @@
       <p class="subtitle__text">OVERVIEW</p>
     </div>
     <h3 class="section-two__title">
-      WE Would be honoured to <br />
-      welcome you to africa,<span class="section-two__span">our home</span>
+      WE WOULD BE HONOURED TO<br />
+      WELCOME  YOU TO AFRICA,<span class="section-two__span">OUR HOME</span>
     </h3>
     <div class="section-two__container">
       <div class="section-two__inner">
