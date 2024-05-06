@@ -22,11 +22,13 @@
         margin-bottom: 49px;
     }
 
+
     &__box {
         @include Flex(177px);
     }
 
-    &__textbbox{
+    &__textbox {
+        margin-left: 210px;
     }
 
     &__hr {

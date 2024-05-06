@@ -1,5 +1,7 @@
 @import "_vars.scss";
 @import "_mixin.scss";
+@import "_fonts.scss";
+
 
 .subtitle {
     &__wrapper {
@@ -11,6 +13,7 @@
         font-weight: 400;
         font-size: 25px;
         color: $colorGreen;
+        font-family: $titleFontFamily;
     }
 
     &__text_white {

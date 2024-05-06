@@ -78,14 +78,4 @@
         @include lineLeftUp(0);
         cursor: pointer;
     }
-
-    &__button:hover {
-        outline: none;
-        background-color: $colorOrange;
-    }
-
-    &__button:active {
-        outline: none;
-        background-color: $colorOrange;
-    }
 }
