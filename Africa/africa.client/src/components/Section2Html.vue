@@ -17,7 +17,7 @@
     </div>
     <h3 class="section-two__title">
       WE WOULD BE HONOURED TO<br />
-      WELCOME  YOU TO AFRICA,<span class="section-two__span">OUR HOME</span>
+      WELCOME  YOU TO AFRICA,<span class="section-two__span"> OUR HOME</span>
     </h3>
     <div class="section-two__container">
       <div class="section-two__inner">
