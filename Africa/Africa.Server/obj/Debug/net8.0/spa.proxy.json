@@ -3,11 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-<<<<<<< HEAD
 "WorkingDirectory": "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\Africa.Server\\..\\africa.client",
-=======
-"WorkingDirectory": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\..\\africa.client",
->>>>>>> 33b093b2415b7240cb2c02e539e5089d9038157d
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
