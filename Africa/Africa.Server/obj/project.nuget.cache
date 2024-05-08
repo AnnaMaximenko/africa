@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZAzloJzgvnyOHDlpIlJz1JTfgkAswDDYglZ4BOr7GhltsC4TW0X8NiT70X/VzS4/eBAZGpNlq3euZsr3r77SLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\Africa.Server\\Africa.Server.csproj",
+=======
+  "dgSpecHash": "/mCf9xGrALjDqZ1LHNr+kfcBIZA40DYkfwiUYmhMB0YvdqSvR9MlzRlymir2RlKKqEv7I50ehpllFTnriaVKEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
+>>>>>>> 33b093b2415b7240cb2c02e539e5089d9038157d
   "expectedPackageFiles": [
     "C:\\Users\\zheka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\zheka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

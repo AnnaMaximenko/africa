@@ -55,6 +55,7 @@
               id=""
               v-model.trim="form.email"
             />
+<<<<<<< HEAD
             <button type="submit" class="form__button">Send</button>
 
             <div class="reviews">
@@ -64,6 +65,9 @@
                 </li>
               </ul>
             </div>
+=======
+            <button class="form__button" onclick="Do">Send</button>
+>>>>>>> 33b093b2415b7240cb2c02e539e5089d9038157d
           </form>
         </div>
       </div>
@@ -87,6 +91,7 @@ export default {
       show: false,
     };
   },
+<<<<<<< HEAD
   methods: {
     // send() {
     //   axios.post(
@@ -104,6 +109,13 @@ export default {
     //   );
     // },
   },
+=======
+        methods: {
+            DoPost() {
+
+            }
+        },
+>>>>>>> 33b093b2415b7240cb2c02e539e5089d9038157d
 };
 </script>
 

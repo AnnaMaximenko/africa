@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\Africa.Server\\Africa.Server.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\Africa.Server\\Africa.Server.csproj",
         "packagesPath": "C:\\Users\\zheka\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\zheka\\Рабочий стол\\YandexDisk\\africa\\Africa\\Africa.Server\\obj\\",
+=======
+    "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
+        "projectName": "Africa.Server",
+        "projectPath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\Africa.Server.csproj",
+        "packagesPath": "C:\\Users\\lizau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lizau\\repos\\africa\\africa\\Africa.Server\\obj\\",
+>>>>>>> 33b093b2415b7240cb2c02e539e5089d9038157d
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zheka\\AppData\\Roaming\\NuGet\\NuGet.Config"
