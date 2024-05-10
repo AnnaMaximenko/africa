@@ -8,7 +8,9 @@
       <div class="footer__link">
         <ul class="footer__column">
           <p class="footer__title">DESTINATION</p>
-          <li><a href="#" class="footer__text">Zimbabwe</a></li>
+          <li class="footer__li">
+            <a href="#" class="footer__text">Zimbabwe</a>
+          </li>
           <li><a href="#" class="footer__text">Botswana</a></li>
           <li><a href="#" class="footer__text">Nambia</a></li>
           <li><a href="#" class="footer__text">Specials</a></li>

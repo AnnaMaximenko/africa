@@ -1,5 +1,5 @@
 <template>
-  <section class="section-eleven center">
+  <section id="app" class="section-eleven center">
     <div class="subtitle__wrapper section-three__subtitle">
       <svg
         width="38"
@@ -13,8 +13,82 @@
           fill="#A86747"
         />
       </svg>
-      <p class="subtitle__text">INQUIRY</p>
+      <p class="subtitle__text">MORE INFORMATION</p>
     </div>
-    <hr class="section-eleven__hr" />
+    <ul class="section-eleven__ul">
+      <li class="section-eleven__li section-eleven__li-one">
+        <div class="section-eleven__wrap">
+          <p class="section-eleven__title">GENERAL</p>
+          <button @click="showOne = !showOne" class="section-eleven__circle">
+            <hr class="section-eleven__hr section-eleven__hr-one" />
+            <hr
+              v-if="!showOne"
+              class="section-eleven__hr section-eleven__hr-two"
+            />
+          </button>
+        </div>
+        <p v-if="showOne" class="section-eleven__text">
+          Sed tincidunt quis amet ut. Augue et pellentesque quis sit tempus
+          placerat vitae. Nunc potenti donec blandit quis sit. Faucibus purus
+          odio sit massa id. Dolor quis mauris nisi mauris. Cras suspendisse mi
+          tempus elementum proin nibh et elit. Mollis euismod cras in diam
+          pretium etiam.
+        </p>
+      </li>
+      <li class="section-eleven__li section-eleven__li-two">
+        <div class="section-eleven__wrap">
+          <p class="section-eleven__title">ISA & TRAVEL</p>
+          <button @click="showTwo = !showTwo" class="section-eleven__circle">
+            <hr class="section-eleven__hr section-eleven__hr-one" />
+            <hr
+              v-if="!showTwo"
+              class="section-eleven__hr section-eleven__hr-two"
+            />
+          </button>
+        </div>
+
+        <p v-if="showTwo" class="section-eleven__text">
+          Sed tincidunt quis amet ut. Augue et pellentesque quis sit tempus
+          placerat vitae. Nunc potenti donec blandit quis sit. Faucibus purus
+          odio sit massa id. Dolor quis mauris nisi mauris. Cras suspendisse mi
+          tempus elementum proin nibh et elit. Mollis euismod cras in diam
+          pretium etiam.
+        </p>
+      </li>
+      <li class="section-eleven__li section-eleven__li-three">
+        <div class="section-eleven__wrap">
+          <p class="section-eleven__title">HEALTH & VACCINATIONs</p>
+          <button
+            @click="showThree = !showThree"
+            class="section-eleven__circle"
+          >
+            <hr class="section-eleven__hr section-eleven__hr-one" />
+            <hr
+              v-if="!showThree"
+              class="section-eleven__hr section-eleven__hr-two"
+            />
+          </button>
+        </div>
+        <p v-if="showThree" class="section-eleven__text">
+          Sed tincidunt quis amet ut. Augue et pellentesque quis sit tempus
+          placerat vitae. Nunc potenti donec blandit quis sit. Faucibus purus
+          odio sit massa id. Dolor quis mauris nisi mauris. Cras suspendisse mi
+          tempus elementum proin nibh et elit. Mollis euismod cras in diam
+          pretium etiam.
+        </p>
+      </li>
+    </ul>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      showOne: false,
+      showTwo: false,
+      showThree: false,
+    };
+  },
+};
+</script>
+<style lang="scss" scoped></style>

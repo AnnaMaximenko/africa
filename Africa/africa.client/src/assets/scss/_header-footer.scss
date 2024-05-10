@@ -30,8 +30,7 @@
     cursor: pointer;
   }
   &__button:hover {
-    outline: none;
-    background-color: $colorOrange;
+    @include PointingAtTHEButton($colorOrange);
   }
   &__button:active {
     outline: none;

@@ -43,3 +43,8 @@
   background-color: $colorOrange;
 }
 
+@mixin PointingAtTHEButton($color) {
+  outline: none;
+  background-color: $color;
+  transition: all 0.5s ease;
+}

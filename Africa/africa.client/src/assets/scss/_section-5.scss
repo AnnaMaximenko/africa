@@ -33,6 +33,19 @@
     color: $colorWhite;
     margin-bottom: 49px;
   }
+  &__button-main {
+    padding: 20px 30px;
+    background-color: $colorMain;
+    font-weight: 400;
+    font-size: 20px;
+    color: $colorWhite;
+    height: 63px;
+    border: 1px solid $colorWhite;
+    cursor: pointer;
+  }
+  &__button-main:hover {
+    @include PointingAtTHEButton($colorOrange);
+  }
 
   &__picture {
     position: relative;
@@ -77,5 +90,9 @@
     padding-bottom: 7px;
     @include lineLeftUp(0);
     cursor: pointer;
+  }
+  &__button:hover {
+    border-bottom: 2px solid $colorWhite;
+    transition: border-bottom 0.5s ease, margin-left 0.5s ease;
   }
 }
