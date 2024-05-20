@@ -24,7 +24,7 @@
                                required
                                class="form__input"
                                type="text"
-                               name="name"
+                               name="name" 
                                id="" />
                         <input placeholder="Phone"
                                v-model ="applicationData.phone"
@@ -68,8 +68,15 @@
             };
         },
         methods: {
-            onSendApplication() {
-                return axios.post('https://localhost:7272/api/Applications', this.applicationData);
+            onSendApplication()
+            {
+                console.log(this.applicationData);
+                return axios.post('https://localhost:7272/api/Applications',
+                    {
+                        name: this.applicationData.name,
+                        email: this.applicationData.email,
+                        phoneNumber: this.applicationData.phone,
+                    });       
             }
         },
     };
