@@ -1,6 +1,0 @@
-@Africa.Server_HostAddress = http://localhost:5225
-
-GET {{Africa.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
