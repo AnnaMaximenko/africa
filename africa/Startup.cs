@@ -27,7 +27,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         // NOTE: PRODUCTION Ensure this is the same path that is specified in your webpack output
-        services.AddSpaStaticFiles(opt => opt.RootPath = "ClientApp/dist");
+        services.AddSpaStaticFiles(opt => opt.RootPath = "ClientApp");
         services.AddControllers();
     }
 
@@ -59,13 +59,28 @@ public class Startup
             // You could wrap this proxy in either
             // if (System.Diagnostics.Debugger.IsAttached)
             // or a preprocessor such as #if DEBUG
-            endpoints.MapToVueCliProxy(
-            "{*path}",
-                new SpaOptions { SourcePath = "ClientApp" },
-                npmScript: (System.Diagnostics.Debugger.IsAttached) ? "serve" : null,
-                regex: "Compiled successfully",
-                forceKill: true
-                );
+            //endpoints.MapToVueCliProxy(
+            //"{*path}",
+            //    new SpaOptions { SourcePath = "ClientApp" },
+            //    npmScript: (System.Diagnostics.Debugger.IsAttached) ? "serve" : null,
+            //    regex: "Compiled successfully",
+            //    forceKill: true
+            //    );
+        });
+        app.UseSpa(spa =>
+        {
+            if(env.IsDevelopment())
+            {
+                spa.Options.SourcePath = "ClientApp/";
+            }
+            else
+            {
+                spa.Options.SourcePath = "dist";
+            }
+            if (env.IsDevelopment())
+            {
+                spa.UseVueCli(npmScript:"serve");
+            }
         });
     }
 }
