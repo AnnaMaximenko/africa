@@ -1,0 +1,44 @@
+@import "_vars.scss";
+@import "_mixin.scss";
+@import "_fonts.scss";
+
+.subtitle {
+  &__wrapper {
+    @include lineLeftCenter(10px);
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 25px;
+    color: $colorGreen;
+    font-family: $titleFontFamily;
+  }
+
+  &__text_white {
+    font-weight: 400;
+    font-size: 25px;
+    color: $colorWhite;
+    font-family: $titleFontFamily;
+  }
+}
+.title {
+  &__text {
+    color: $colorGreen;
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 136%;
+    margin-bottom: 44px;
+  }
+
+  &__text_white {
+    color: $colorWhite;
+    font-family: $titleFontFamily;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 136%;
+    color: $colorWhite;
+    margin-bottom: 44px;
+  }
+}

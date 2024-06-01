@@ -1,0 +1,61 @@
+.section-eleven {
+  background-color: $colorWhite;
+  @include ColumnLeft(0);
+  padding-top: 107px;
+  padding-bottom: 10px;
+  transition: all 0.5 ease;
+
+  &__ul {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  &__li {
+    padding: 46px 0px 55px 2px;
+    width: 100%;
+    border-bottom: 1px solid $colorGreen;
+  }
+  &__li-one {
+    border-top: 1px solid $colorGreen;
+  }
+  &__wrap {
+    @include lineSpaceBetween(0px);
+  }
+  &__circle {
+    min-width: 47px;
+    min-height: 47px;
+    border: 1px solid $colorOrange;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: $colorWhite;
+  }
+  &__hr {
+    border-color: $colorOrange;
+    width: 50%;
+  }
+  &__hr-one {
+    position: relative;
+    top: 2px;
+    left: 11px;
+  }
+  &__hr-two {
+    position: relative;
+    top: 2px;
+    left: 11px;
+    transform: rotateZ(90deg);
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 86%;
+    color: $colorGreen;
+  }
+  &__text {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 167%;
+    color: $colorGreen;
+    width: 70%;
+  }
+}

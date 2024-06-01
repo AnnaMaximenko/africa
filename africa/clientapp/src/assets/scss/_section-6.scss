@@ -1,0 +1,38 @@
+@import "_vars.scss";
+@import "_mixin.scss";
+
+.section-six {
+  padding-top: 105px;
+  padding-bottom: 10px;
+
+  &__subtitle {
+    margin-bottom: 32px;
+    font-family: $titleFontFamily;
+  }
+
+  .subtitle__text {
+    color: $colorGreen;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: $colorWhite;
+    margin-bottom: 49px;
+  }
+
+  &__box {
+    @include Flex(177px);
+  }
+
+  &__textbox {
+    margin-left: 210px;
+  }
+
+  &__hr {
+    @include Hr;
+    width: 235px;
+    margin-bottom: 40px;
+  }
+}
