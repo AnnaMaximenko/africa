@@ -32,7 +32,7 @@
               tempus placerat vitae. Nunc potenti donec blandit.
             </p>
           </div>
-          <button>CHECK DESTINATION</button>
+          <a id="link" href="#myDropdown">CHECK DESTINATION</a>
           <img
             class="section-nine__ornament-two"
             src="../assets/img/section-9-ornament_1x.webp"

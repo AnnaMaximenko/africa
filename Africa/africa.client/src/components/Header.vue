@@ -15,56 +15,9 @@
           {{ link.name }}
         </router-link>
         <div class="header__dropdown">
-          <button @click="show = !show" key="menu" class="header__button">
+          <a id="link" href="#myDropdown" key="menu" class="header__button">
             PLAN A TRIP
-          </button>
-
-          <form
-            action="https://localhost:7272/api/Applications"
-            method="POST"
-            v-if="show"
-            id="myDropdown"
-            class="form"
-            @submit.prevent="send"
-          >
-            <h3 class="form__title">Application form</h3>
-            <input
-              placeholder="Name"
-              required
-              class="form__input"
-              type="text"
-              name="name"
-              id=""
-              v-model.trim="form.name"
-            />
-            <input
-              placeholder="Phone"
-              required
-              class="form__input"
-              type="tel"
-              name="phone"
-              id=""
-              v-model.trim="form.phone"
-            />
-            <input
-              placeholder="E-mail"
-              required
-              class="form__input"
-              type="email"
-              name=""
-              id=""
-              v-model.trim="form.email"
-            />
-            <button type="submit" class="form__button">Send</button>
-
-            <div class="reviews">
-              <ul>
-                <li v-for="item in form" :key="item.id">
-                  <p>{{ item.name }}</p>
-                </li>
-              </ul>
-            </div>
-          </form>
+          </a>
         </div>
       </div>
     </div>

@@ -65,7 +65,7 @@
     margin-bottom: 49px;
   }
 
-  button {
+  a {
     border: 1px solid $colorWhite;
     padding: 20px 30px;
     background-color: $colorOrange;
@@ -75,7 +75,7 @@
     cursor: pointer;
   }
 
-  button:hover {
+  a:hover {
     outline: none;
     background-color: $colorWhite;
     color: $colorOrange;
@@ -83,7 +83,7 @@
     transition: all 0.5s ease;
   }
 
-  button:active {
+  a:active {
     outline: none;
     background-color: $colorWhite;
     color: $colorOrange;
