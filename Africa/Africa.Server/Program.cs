@@ -27,6 +27,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(builder =>
+{
+    builder
+        .WithOrigins("https://localhost:5173")
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+});
+
 app.UseAuthorization();
 
 app.MapControllers();
