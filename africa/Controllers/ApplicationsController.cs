@@ -22,55 +22,6 @@ namespace africa.Controllers
             return await _context.Applications.ToListAsync();
         }
 
-        // GET: api/Applications/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<CreateApplicationModel>> GetApplication(int id)
-        {
-            var application = await _context.Applications.FindAsync(id);
-
-            if (application == null)
-            {
-                return NotFound();
-            }
-            var result = new CreateApplicationModel();
-            result.Name = application.Name;
-            result.PhoneNumber = application.PhoneNumber;
-            result.Email = application.Email;
-
-            return result;
-        }
-
-        // PUT: api/Applications/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutApplication(int id, Application application)
-        {
-            if (id != application.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(application).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ApplicationExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
         // POST: api/Applications
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
@@ -90,27 +41,6 @@ namespace africa.Controllers
             result.Name = application.Name;
 
             return result;
-        }
-
-        // DELETE: api/Applications/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteApplication(int id)
-        {
-            var application = await _context.Applications.FindAsync(id);
-            if (application == null)
-            {
-                return NotFound();
-            }
-
-            _context.Applications.Remove(application);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool ApplicationExists(int id)
-        {
-            return _context.Applications.Any(e => e.Id == id);
         }
     }
 }

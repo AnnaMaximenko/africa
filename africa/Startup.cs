@@ -1,20 +1,31 @@
+using africa.Data;
+using Microsoft.EntityFrameworkCore;
 using VueCliMiddleware;
 
 public class Startup
 {
-    public Startup(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
-
     public IConfiguration Configuration { get; }
+    public IWebHostEnvironment Environment { get; protected set; }
+    public Startup(IWebHostEnvironment env)
+    {
+        this.Environment = env;
+
+        var builder = new ConfigurationBuilder()
+            .SetBasePath(env.ContentRootPath)
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddEnvironmentVariables();
+
+        Configuration = builder.Build();
+    }
 
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
         // NOTE: PRODUCTION Ensure this is the same path that is specified in your webpack output
-        services.AddSpaStaticFiles(opt => opt.RootPath = "ClientApp");
+        services.AddSpaStaticFiles(opt => opt.RootPath = "wwwroot");
         services.AddControllers();
+        string conn = Configuration.GetConnectionString("ApplicationTable");
+        services.AddDbContext<ApplicationsContext>(opt => opt.UseSqlServer(conn));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,13 +35,8 @@ public class Startup
         {
             app.UseDeveloperExceptionPage();
         }
-
-        // NOTE: this is optional, it adds HTTPS to Kestrel
         app.UseHttpsRedirection();
-
-        // NOTE: PRODUCTION uses webpack static files
-        app.UseSpaStaticFiles();
-
+        app.UseStaticFiles();
         app.UseRouting();
 
         app.UseAuthorization();
@@ -38,35 +44,7 @@ public class Startup
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
-
-            // NOTE: VueCliProxy is meant for developement and hot module reload
-            // NOTE: SSR has not been tested
-            // Production systems should only need the UseSpaStaticFiles() (above)
-            // You could wrap this proxy in either
-            // if (System.Diagnostics.Debugger.IsAttached)
-            // or a preprocessor such as #if DEBUG
-            //endpoints.MapToVueCliProxy(
-            //"{*path}",
-            //    new SpaOptions { SourcePath = "ClientApp" },
-            //    npmScript: (System.Diagnostics.Debugger.IsAttached) ? "serve" : null,
-            //    regex: "Compiled successfully",
-            //    forceKill: true
-            //    );
-        });
-        app.UseSpa(spa =>
-        {
-            if(env.IsDevelopment())
-            {
-                spa.Options.SourcePath = "ClientApp/";
-            }
-            else
-            {
-                spa.Options.SourcePath = "dist";
-            }
-            if (env.IsDevelopment())
-            {
-                spa.UseVueCli(npmScript:"serve");
-            }
+            endpoints.MapFallbackToFile("index.html");
         });
     }
 }
