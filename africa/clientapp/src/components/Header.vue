@@ -71,7 +71,7 @@
             onSendApplication()
             {
                 console.log(this.applicationData);
-                return axios.post('http://localhost:7163/api/Applications',
+                return axios.post('api/Applications',
                     {
                         name: this.applicationData.name,
                         email: this.applicationData.email,
