@@ -76,12 +76,6 @@
                         name: this.applicationData.name,
                         email: this.applicationData.email,
                         phoneNumber: this.applicationData.phone,
-                    })
-                    .then(response => {
-                        console.log('Success:', response.data);
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
                     });      
             }
         },
