@@ -1,6 +1,0 @@
-@africa_HostAddress = http://localhost:5011
-
-GET {{africa_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
