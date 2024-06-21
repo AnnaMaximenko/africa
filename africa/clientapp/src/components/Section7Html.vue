@@ -41,7 +41,7 @@
             </p>
             <hr class="section-seven__hr" />
           </div>
-          <button>PLAN A TRIP</button>
+          <a id="link" href="#myDropdown">PLAN A TRIP</a>
           <img
             class="section-seven__ornament-four"
             src="../assets/img/section-7_ornament-4.webp"

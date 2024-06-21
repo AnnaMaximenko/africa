@@ -16,6 +16,7 @@
 @import "../scss/section-12";
 @import "../scss/common-styles";
 @import "../scss/header-footer";
+@import "../scss/form";
 
 * {
   margin: 0;
@@ -26,7 +27,9 @@
 }
 html {
   background-color: $colorMain;
+  scroll-behavior: smooth;
 }
+
 a {
   text-decoration: none;
 }
