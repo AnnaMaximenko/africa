@@ -1,71 +1,23 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-<<<<<<< HEAD
   <header>
-    <div id="app" class="header__wrapper center">
-      <a href="#">
-        <img src="../assets/img/Logo_Frika Safaris.svg" alt="logo"
-      /></a>
-      <div class="header-right__menu">
-        <router-link
-          class="header__menu"
-          v-for="link in rightArr"
-          :key="link.id"
-          :to="link.url"
-        >
-          {{ link.name }}
-        </router-link>
-        <div class="header__dropdown">
-          <a id="link" href="#myDropdown" key="menu" class="header__button">
-            PLAN A TRIP
+      <div id="app" class="header__wrapper center">
+          <a href="#">
+              <img src="../assets/img/Logo_Frika Safaris.svg" alt="logo" />
           </a>
-=======
-    <header>
-        <div id="app" class="header__wrapper center">
-            <a href="#">
-                <img src="../assets/img/Logo_Frika Safaris.svg" alt="logo" />
-            </a>
-            <div class="header-right__menu">
-                <router-link class="header__menu"
-                             v-for="link in rightArr"
-                             :key="link.id"
-                             :to="link.url">
-                    {{ link.name }}
-                </router-link>
-                <div class="header__dropdown">
-                    <button @click="show = !show" key="menu" class="header__button">
-                        PLAN A TRIP
-                    </button>
-
-                    <form @submit.prevent = "onSendApplication" v-if="show" id="myDropdown" class="form">
-                        <h3 class="form__title">Application form</h3>
-                        <input placeholder="Name"
-                               v-model ="applicationData.name"
-                               required
-                               class="form__input"
-                               type="text"
-                               name="name" 
-                               id="" />
-                        <input placeholder="Phone"
-                               v-model ="applicationData.phone"
-                               required
-                               class="form__input"
-                               type="tel"
-                               name="phone"
-                               id="" />
-                        <input placeholder="E-mail"
-                               v-model ="applicationData.email"
-                               required
-                               class="form__input"
-                               type="email"
-                               name=""
-                               id="" />
-                        <button class="form__button">Send</button>
-                    </form>
-                </div>
-            </div>
->>>>>>> fcc17b0e12948c93f22b1d7dbc7b0f6af6d27241
-        </div>
+          <div class="header-right__menu">
+              <router-link class="header__menu"
+                           v-for="link in rightArr"
+                           :key="link.id"
+                           :to="link.url">
+                  {{ link.name }}
+              </router-link>
+              <div class="header__dropdown">
+                  <a id="link" href="#myDropdown" key="menu" class="header__button">
+                      PLAN A TRIP
+                  </a>
+              </div>
+          </div>
+      </div>
     </header>
 </template>
 
