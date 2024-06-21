@@ -12,6 +12,7 @@
   <Section10Html />
   <Section11Html />
   <Section12Html />
+  <Form />
   <Footer />
 </template>
 
@@ -29,6 +30,7 @@ import Section9Html from "@/components/Section9Html.vue";
 import Section10Html from "@/components/Section10Html.vue";
 import Section11Html from "@/components/Section11Html.vue";
 import Section12Html from "@/components/Section12Html.vue";
+import Form from "@/components/Form.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
@@ -46,7 +48,8 @@ export default {
     Section10Html,
     Section11Html,
     Section12Html,
-
+    // eslint-disable-next-line vue/no-reserved-component-names
+    Form,
     // eslint-disable-next-line vue/no-reserved-component-names
     Footer,
   },

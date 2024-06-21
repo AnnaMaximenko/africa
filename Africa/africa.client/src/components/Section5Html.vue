@@ -28,10 +28,12 @@
           tempus elementum proin nibh et elit. Mollis euismod cras in diam
           pretium etiam.
         </p>
-        <button class="section-five__button-main">PLAN A TRIP</button>
+        <a id="link" href="#myDropdown" class="section-five__button-main"
+          >PLAN A TRIP</a
+        >
       </div>
       <div class="section-five__wrapper-right">
-        <div class="section-five__picture">
+        <!-- <div class="section-five__picture">
           <div class="section-five__ornament"></div>
           <div class="section-five__slider"></div>
         </div>
@@ -41,6 +43,46 @@
           <button class="section-five__button">03</button>
           <button class="section-five__button">04</button>
           <button class="section-five__button">05</button>
+        </div> -->
+        <div class="section-five__slider">
+          <input type="radio" name="images" id="img1" checked />
+          <input type="radio" name="images" id="img2" />
+          <input type="radio" name="images" id="img3" />
+          <input type="radio" name="images" id="img4" />
+          <input type="radio" name="images" id="img5" />
+          <div class="section-five__slider-img" id="one">
+            <img src="../assets/img/section-5__lion.webp" alt="leon" />
+            <label for="img3" class="section-five__prev">1</label>
+            <label for="img2" class="section-five__next"></label>
+          </div>
+          <div class="section-five__slider-img" id="two">
+            <img src="../assets/img/section-5__elephant.jpg" alt="" />
+            <label for="img1" class="section-five__prev"></label>
+            <label for="img3" class="section-five__next"></label>
+          </div>
+          <div class="section-five__slider-img" id="three">
+            <img src="../assets/img/section-5__leopard.jpg" alt="" />
+            <label for="img2" class="section-five__prev"></label>
+            <label for="img1" class="section-five__next"></label>
+          </div>
+          <div class="section-five__slider-img" id="four">
+            <img src="../assets/img/section-5__hippo.jpg" alt="" />
+            <label for="img3" class="section-five__prev"></label>
+            <label for="img5" class="section-five__next"></label>
+          </div>
+          <div class="section-five__slider-img" id="five">
+            <img src="../assets/img/section-5__zebra.jpg" alt="" />
+            <label for="img4" class="section-five__prev"></label>
+            <label for="img1" class="section-five__next"></label>
+          </div>
+
+          <div class="section-five__counter">
+            <label for="img1" class="section-five__count" id="count1">01</label>
+            <label for="img2" class="section-five__count" id="count2">02</label>
+            <label for="img3" class="section-five__count" id="count3">03</label>
+            <label for="img4" class="section-five__count" id="count4">04</label>
+            <label for="img5" class="section-five__count" id="count5">05</label>
+          </div>
         </div>
       </div>
     </div>

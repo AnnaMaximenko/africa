@@ -23,7 +23,9 @@
           placerat vitae. Nunc potenti donec blandit quis sit. Faucibus purus
           odio.
         </p>
-        <button class="section-twelve__button">ENQUIRE NOW</button>
+        <a id="link" href="#myDropdown" class="section-twelve__button"
+          >ENQUIRE NOW</a
+        >
         <img
           src="../assets/img/section-11_sun.webp"
           alt="journey"
