@@ -17,6 +17,7 @@
     font-size: 44px;
     line-height: 136%;
     color: $colorGreen;
+    margin-bottom: 25px;
   }
   &__span {
     color: $colorOrange;
@@ -38,7 +39,6 @@
     @include Picture;
   }
   &__ornament {
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
     background-image: url(../img/section-2_ornament.webp);
     width: 397px;
     height: 440px;
@@ -68,5 +68,67 @@
     border-radius: 100px 0 0 0;
     position: absolute;
     right: 0;
+  }
+}
+@media (max-width: 1550px) {
+  .section-two {
+    &__title {
+      font-size: 40px;
+    }
+    &__bus {
+      width: 600px;
+      height: 400px;
+    }
+    &__ornament {
+      width: 270px;
+      height: 270px;
+      right: -11px;
+      bottom: -40px;
+    }
+    &__text {
+      font-size: 16px;
+      margin-bottom: 18px;
+    }
+    &__container {
+      @include Flex(50px);
+    }
+    &__hr {
+      margin-bottom: 40px;
+    }
+    &__elephant {
+      width: 200px;
+      height: 228px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section-two {
+    margin-top: 366px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    &__container {
+      @include ColumnLeftReverse(20px);
+    }
+    &__title {
+      font-size: 27px;
+    }
+    &__text {
+      font-size: 14px;
+    }
+    &__bus {
+      width: 410px;
+      height: 320px;
+    }
+    &__elephant {
+      display: none;
+    }
+    &__ornament {
+      display: none;
+    }
+    &__hr {
+      width: 135px;
+      margin-bottom: 20px;
+    }
   }
 }

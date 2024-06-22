@@ -28,6 +28,12 @@
   align-items: flex-start;
   gap: $gap;
 }
+@mixin ColumnLeftReverse($gap) {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: $gap;
+}
 @mixin ColumnCenter($gap) {
   display: flex;
   flex-direction: column;

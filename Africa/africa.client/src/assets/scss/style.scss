@@ -44,26 +44,22 @@ li {
   padding-left: calc(50% - $siteWidth / 2);
   padding-right: calc(50% - $siteWidth / 2);
 }
-.centerMax {
-  padding-left: calc(50% - $siteWidthMax / 2);
-  padding-right: calc(50% - $siteWidthMax / 2);
-}
 
-// @media (max-width: 1200px) {
-//   .center {
-//     padding-left: calc(50% - $siteWidthTable / 2);
-//     padding-right: calc(50% - $siteWidthTable / 2);
-//   }
-// }
-// @media (max-width: 767px) {
-//   .center {
-//     padding-left: calc(50% - $siteWidthMobileBig / 2);
-//     padding-right: calc(50% - $siteWidthMobileBig / 2);
-//   }
-// }
-// @media (max-width: 450px) {
-//   .center {
-//     padding-left: calc(50% - $siteWidthMobile / 2);
-//     padding-right: calc(50% - $siteWidthMobile / 2);
-//   }
-// }
+@media (max-width: 1550px) {
+  .center {
+    padding-left: calc(50% - $siteWidthMin / 2);
+    padding-right: calc(50% - $siteWidthMin / 2);
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - $siteWidthMobileBig / 2);
+    padding-right: calc(50% - $siteWidthMobileBig / 2);
+  }
+}
+@media (max-width: 450px) {
+  .center {
+    padding-left: calc(50% - $siteWidthMobile / 2);
+    padding-right: calc(50% - $siteWidthMobile / 2);
+  }
+}
