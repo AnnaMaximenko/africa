@@ -4,16 +4,9 @@
           id="myDropdown"
           class="form center">
         <h3 class="form__title">Application form</h3>
-        <p v-if="errors.length">
-            <b>Please correct the following error(s):</b>
-            <ul>
-                <li v-for="error in errors">{{ error }}</li>
-            </ul>
-        </p>
         <div>
             <label class="form__label">Name</label>
             <input v-model="applicationData.name"
-                   required
                    class="form__input"
                    type="text"
                    name="name"
@@ -22,7 +15,6 @@
         <div>
             <label class="form__label">Phone</label>
             <input v-model="applicationData.phone"
-                   required
                    class="form__input"
                    type="tel"
                    name="phone"
@@ -30,8 +22,7 @@
         </div>
         <div>
             <label class="form__label">Email</label>
-            <input v-model="applicationData.email"
-                   required
+            <input v-model.trim="applicationData.email"
                    class="form__input"
                    type="email"
                    name=""
@@ -43,48 +34,45 @@
 
 <script>
     import axios from 'axios';
+    import { email, required, helpers } from '@vuelidate/validators';
+    //import useVuelidate from '@vuelidate/core';
+
+    const number = helpers.regex(
+        "serial",
+        /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/
+    );
+
     export default {
         data() {
             return {
                 applicationData: {
-                    errors: [],
                     name: '',
                     phone: '',
                     email: '',
                 }
             };
         },
+        //validations() {
+        //    return {
+        //        applicationData: {
+        //            name: { required },
+        //            email: { required, email },
+        //            phone: { required, number },
+        //        }
+        //    };
+        //},
+        setup() {
+            return { v$: useVuelidate() };
+        },
         methods: {
             onSendApplication() {
-                return axios.post('api/Applications',
-                    {
-                        name: this.applicationData.name,
-                        email: this.applicationData.email,
-                        phoneNumber: this.applicationData.phone,
-                    });
+                return axios.post('api/Applications', {
+                    name: this.applicationData.name,
+                    email: this.applicationData.email,
+                    phone: this.applicationData.phone,
+                });
             }
-
-            checkForm: function (e) {
-                if (this.applicationData.name
-                    && this.applicationData.email
-                    && this.applicationData.phone) {
-                    return true;
-                }
-
-                this.errors = [];
-
-                if (!this.applicationData.name) {
-                    this.errors.push('Name required.');
-                }
-                if (!this.this.applicationData.email) {
-                    this.errors.push('Email required.');
-                }
-                if (!this.applicationData.phone) {
-                    this.errors.push('Phone required.');
-                }
-
-                e.preventDefault();
-            }
-        },
+        }
     };
 </script>
+
