@@ -16,6 +16,11 @@
         line-height: 252%;
     }
 
+    &__input_box {
+        display: flex;
+        flex-direction: column;
+    }
+
     &__label {
         color: $colorOrange;
         font-weight: 400;
@@ -23,20 +28,32 @@
     }
 
     &__input {
-        width: 100%;
+        width: 475px;
         border: 1px solid $colorBlack;
         border-radius: 5px;
         min-height: 58px;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 26px;
         color: $colorOrange;
         padding-top: 19px;
         padding-left: 14px;
         padding-bottom: 17px;
     }
 
+    &__input_hasError {
+        outline: 1px solid #D43C34;
+    }
+
+    &__input:focus {
+        outline: 1px solid $colorBlack;
+    }
+
     &__input::placeholder {
         color: $colorOrange;
+    }
+
+    &__error_message {
+        color: #D43C34;
     }
 
     &__button {
