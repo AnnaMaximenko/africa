@@ -118,23 +118,33 @@
     }
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .section-one {
     padding-top: 10px;
     // @include ColumnLeft(0);
+    align-items: flex-start;
+
     &__wrapper-img {
       height: 200px;
     }
+    &__box {
+      min-width: 400px;
+    }
+    &__inner {
+      display: block;
+    }
+
     &__title {
       padding-top: 90px;
       font-size: 41px;
-      max-width: 50%;
+      max-width: 70%;
     }
     &__text {
       font-size: 14px;
-      width: 35%;
+      width: 65%;
     }
     &__giraffe {
+      top: -10px;
       left: -80px;
       height: 430px;
       min-width: 330px;

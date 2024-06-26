@@ -15,7 +15,7 @@
           <li><a href="#" class="footer__text">Nambia</a></li>
           <li><a href="#" class="footer__text">Specials</a></li>
         </ul>
-        <ul class="footer__column">
+        <ul class="footer__column footer__column_center">
           <p class="footer__title">COMPANY</p>
 
           <li><a href="#" class="footer__text">About</a></li>

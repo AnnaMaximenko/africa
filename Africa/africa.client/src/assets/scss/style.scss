@@ -51,7 +51,7 @@ li {
     padding-right: calc(50% - $siteWidthMin / 2);
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - $siteWidthMobileBig / 2);
     padding-right: calc(50% - $siteWidthMobileBig / 2);

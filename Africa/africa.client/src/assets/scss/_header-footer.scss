@@ -86,3 +86,35 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .header {
+    &__button {
+      display: none;
+    }
+    &__wrapper {
+      padding-top: 46px;
+      @include ColumnLeft(25px);
+    }
+    &__menu {
+      font-size: 18px;
+    }
+    &-right__menu {
+      @include lineSpaceBetween(47px);
+    }
+  }
+
+  .footer {
+    &__up {
+      @include lineLeftUp(38px);
+      margin-bottom: 58px;
+    }
+    &__link {
+      @include Flex(60px);
+    }
+
+    &__column_center {
+      display: none;
+    }
+  }
+}
