@@ -1,74 +1,138 @@
 .header {
-  &__wrapper {
-    padding-top: 46px;
-    @include lineSpaceBetween(0);
-    position: relative;
-  }
-  &-right__menu {
-    @include lineSpaceBetween(53px);
-  }
-  &__menu {
-    color: $colorTextMain;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  &__menu:hover {
-    color: $colorOrange;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-  }
-  &__dropdown {
-    position: relative;
-  }
-  &__button {
-    border: 1px solid $colorWhite;
-    padding: 20px 30px;
-    background-color: $colorMain;
-    font-weight: 400;
-    font-size: 20px;
-    color: $colorTextMain;
-    cursor: pointer;
-  }
-  &__button:hover {
-    @include PointingAtTHEButton($colorOrange);
-  }
-  &__button:active {
-    outline: none;
-    background-color: $colorOrange;
-  }
+    &__wrapper {
+        padding-top: 46px;
+        @include lineSpaceBetween(0);
+        position: relative;
+    }
+
+    &-right__menu {
+        @include lineSpaceBetween(53px);
+    }
+
+    &__menu {
+        color: $colorTextMain;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    &__menu:hover {
+        color: $colorOrange;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+
+    &__dropdown {
+        position: relative;
+    }
+
+    &__button {
+        border: 1px solid $colorWhite;
+        padding: 20px 30px;
+        background-color: $colorMain;
+        font-weight: 400;
+        font-size: 20px;
+        color: $colorTextMain;
+        cursor: pointer;
+    }
+
+    &__button:hover {
+        @include PointingAtTHEButton($colorOrange);
+    }
+
+    &__button:active {
+        outline: none;
+        background-color: $colorOrange;
+    }
 }
 
 .show {
-  display: block;
+    display: block;
 }
 
 .footer {
-  padding-top: 75px;
-  padding-bottom: 69px;
-  &__up {
-    @include lineLeftUp(198px);
-    margin-bottom: 88px;
-  }
-  &__link {
-    @include lineLeftUp(95px);
-  }
-  &__column {
-    @include ColumnLeft(12px);
-  }
-  &__title {
-    font-weight: 400;
-    font-size: 25px;
-    color: $colorWhite;
-  }
-  &__down {
-    margin-bottom: 32px;
-    @include lineLeftCenter(16px);
-  }
-  &__text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 222%;
-    color: $colorWhite;
-    opacity: 0.5;
-  }
+    padding-top: 75px;
+    padding-bottom: 69px;
+
+    &__up {
+        @include lineLeftUp(198px);
+        margin-bottom: 88px;
+    }
+
+    &__link {
+        @include lineLeftUp(95px);
+    }
+
+    &__column {
+        @include ColumnLeft(12px);
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 25px;
+        color: $colorWhite;
+    }
+
+    &__down {
+        margin-bottom: 32px;
+        @include lineLeftCenter(16px);
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 222%;
+        color: $colorWhite;
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
+
+    &__text:hover {
+        color: $colorOrange;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1550px) {
+    .footer {
+        &__up {
+            @include lineLeftUp(198px);
+            margin-bottom: 58px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        &__button {
+            display: none;
+        }
+
+        &__wrapper {
+            padding-top: 46px;
+            @include ColumnLeft(25px);
+        }
+
+        &__menu {
+            font-size: 18px;
+        }
+
+        &-right__menu {
+            @include lineSpaceBetween(47px);
+        }
+    }
+
+    .footer {
+        &__up {
+            @include lineLeftUp(38px);
+            margin-bottom: 58px;
+        }
+
+        &__link {
+            @include Flex(60px);
+        }
+
+        &__column_center {
+            display: none;
+        }
+    }
 }

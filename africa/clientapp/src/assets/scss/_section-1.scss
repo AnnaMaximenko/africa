@@ -53,33 +53,115 @@
   &__orange {
     background-image: url(../img/Sectionn1_orange.webp);
     height: 530px;
-    min-width: 606px;
+    min-width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     top: 380px;
-    left: 198px;
+    left: 28px;
   }
   &__car {
     background-image: url(../img/Section1_car.webp);
-    height: 530px;
-    min-width: 606px;
+    height: 400px;
+    min-width: 250px;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 150px;
-    left: 470px;
+    top: 250px;
+    left: 360px;
     border-radius: 50px 0 0 0;
   }
   &__giraffe {
     background-image: url(../img/Section1_giraffe.webp);
-    height: 685px;
-    min-width: 531px;
+    height: 630px;
+    min-width: 490px;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 0 0 265px 0;
     position: absolute;
     top: 97px;
-    left: -100px;
+    left: -170px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .section-one {
+    padding-top: 17px;
+    padding-bottom: 0px;
+    &__title {
+      font-size: 71px;
+    }
+    &__hr {
+      width: 100px;
+    }
+    &__text {
+      font-size: 16px;
+      width: 35%;
+    }
+    &__orange {
+      height: 330px;
+      min-width: 406px;
+      top: 350px;
+      left: 28px;
+    }
+    &__car {
+      height: 400px;
+      min-width: 250px;
+      top: 250px;
+      left: 230px;
+    }
+    &__giraffe {
+      height: 500px;
+      min-width: 400px;
+      top: 97px;
+      left: -190px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .section-one {
+    padding-top: 10px;
+    // @include ColumnLeft(0);
+    align-items: flex-start;
+
+    &__wrapper-img {
+      height: 200px;
+    }
+    &__box {
+      min-width: 400px;
+    }
+    &__inner {
+      display: block;
+    }
+
+    &__title {
+      padding-top: 90px;
+      font-size: 41px;
+      max-width: 70%;
+    }
+    &__text {
+      font-size: 14px;
+      width: 65%;
+    }
+    &__giraffe {
+      top: -10px;
+      left: -80px;
+      height: 430px;
+      min-width: 330px;
+    }
+    &__car {
+      display: none;
+    }
+    &__orange {
+      display: none;
+      // height: 250px;
+      // min-width: 220px;
+      // top: 350px;
+      // left: 68px;
+    }
+    &__hr {
+      display: none;
+      // width: 30px;
+    }
   }
 }

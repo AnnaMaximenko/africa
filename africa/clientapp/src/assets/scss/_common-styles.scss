@@ -3,42 +3,91 @@
 @import "_fonts.scss";
 
 .subtitle {
-  &__wrapper {
-    @include lineLeftCenter(10px);
-    margin-bottom: 27px;
-  }
+    &__wrapper {
+        @include lineLeftCenter(10px);
+        margin-bottom: 27px;
+    }
 
-  &__text {
-    font-weight: 400;
-    font-size: 25px;
-    color: $colorGreen;
-    font-family: $titleFontFamily;
-  }
+    &__text {
+        font-weight: 400;
+        font-size: 25px;
+        color: $colorGreen;
+        font-family: $titleFontFamily;
+    }
 
-  &__text_white {
-    font-weight: 400;
-    font-size: 25px;
-    color: $colorWhite;
-    font-family: $titleFontFamily;
-  }
+    &__text_white {
+        font-weight: 400;
+        font-size: 25px;
+        color: $colorWhite;
+        font-family: $titleFontFamily;
+    }
 }
-.title {
-  &__text {
-    color: $colorGreen;
-    font-family: $titleFontFamily;
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 136%;
-    margin-bottom: 44px;
-  }
 
-  &__text_white {
-    color: $colorWhite;
-    font-family: $titleFontFamily;
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 136%;
-    color: $colorWhite;
-    margin-bottom: 44px;
-  }
+.title {
+    &__text {
+        color: $colorGreen;
+        font-family: $titleFontFamily;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 136%;
+        margin-bottom: 44px;
+    }
+
+    &__text_white {
+        color: $colorWhite;
+        font-family: $titleFontFamily;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 136%;
+        color: $colorWhite;
+        margin-bottom: 44px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .subtitle {
+        &__text {
+            font-size: 20px;
+        }
+
+        &__text_white {
+            font-size: 20px;
+        }
+    }
+
+    .title {
+        &__text {
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        &__text_white {
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .subtitle {
+        &__text {
+            font-size: 16px;
+        }
+
+        &__text_white {
+            font-size: 16px;
+        }
+    }
+
+    .title {
+        &__text {
+            font-size: 27px;
+            margin-bottom: 40px;
+        }
+
+        &__text_white {
+            font-size: 27px;
+            margin-bottom: 40px;
+        }
+    }
 }

@@ -31,3 +31,37 @@
     color: $colorGreen;
   }
 }
+
+@media (max-width: 1550px) {
+  .section-three {
+    padding-bottom: 16px;
+    &__number {
+      font-size: 80px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__contain {
+      padding-top: 33px;
+      @include ColumnLeft(51px);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-three {
+    padding-top: 40px;
+
+    padding-bottom: 10px;
+    &__number {
+      font-size: 50px;
+    }
+    &__text {
+      font-size: 12.5px;
+    }
+    &__contain {
+      padding-top: 23px;
+      @include ColumnLeft(31px);
+    }
+  }
+}

@@ -51,7 +51,7 @@
   }
   &__wrapper-right {
     width: 65%;
-    height: 500px;
+    // height: 500px;
     position: relative;
   }
   &__picture {
@@ -192,4 +192,72 @@ input[type="radio"] {
 #img5:checked ~ .section-five__counter #count5 {
   // background: #ffffff;
   border-bottom: 1px solid $colorWhite;
+}
+@media (max-width: 1550px) {
+  .section-five {
+    padding-bottom: 60px;
+    &__title {
+      font-size: 35px;
+      margin-bottom: 35px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__hr {
+      margin-bottom: 35px;
+    }
+    &__slider {
+      max-height: 360px;
+    }
+    &__slider-img {
+      max-height: 350px;
+    }
+    &__count {
+      min-width: 110px;
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .section-five {
+    padding-top: 50px;
+
+    padding-bottom: 60px;
+    &__box {
+      @include ColumnLeft(56px);
+    }
+    &__wrapper-left {
+      width: 100%;
+    }
+    &__wrapper-right {
+      width: 100%;
+    }
+    &__hr {
+      width: 135px;
+    }
+    &__title {
+      font-size: 27px;
+      margin-bottom: 30px;
+    }
+    &__text {
+      font-size: 14px;
+    }
+    &__hr {
+      margin-bottom: 30px;
+    }
+    &__slider {
+      max-height: 260px;
+    }
+    &__slider-img {
+      max-height: 350px;
+    }
+    &__count {
+      min-width: 75px;
+      font-size: 15px;
+    }
+    &__button-main {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
 }

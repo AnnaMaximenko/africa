@@ -36,3 +36,43 @@
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 1550px) {
+  .section-six {
+    &__text {
+      font-size: 16px;
+      margin-bottom: 49px;
+    }
+    &__box {
+      @include Flex(100px);
+    }
+    &__hr {
+      @include Hr;
+      width: 180px;
+      margin-bottom: 35px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .section-six {
+    padding-top: 50px;
+
+    &__text {
+      font-size: 14px;
+      margin-bottom: 19px;
+    }
+    &__box {
+      @include ColumnLeft(10px);
+    }
+    &__hr {
+      width: 135px;
+      margin-bottom: 35px;
+    }
+    &__textbox {
+      margin-left: 210px;
+    }
+    &__textbox {
+      margin-left: 0px;
+    }
+  }
+}
