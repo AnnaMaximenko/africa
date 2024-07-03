@@ -118,3 +118,35 @@
     }
   }
 }
+
+@media (max-width: 835px) {
+  .header {
+    &__img {
+      width: 50%;
+    }
+    &__menu {
+      font-size: 14px;
+    }
+    &-right__menu {
+      @include lineSpaceBetween(20px);
+    }
+  }
+  .footer {
+    padding-top: 30px;
+    &__img {
+      width: 50%;
+    }
+    &__title {
+      font-size: 18px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+    &__column {
+      gap: 5px;
+    }
+    &__up {
+      margin-bottom: 20px;
+    }
+  }
+}

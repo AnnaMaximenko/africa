@@ -65,3 +65,17 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-three {
+    &__number {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 11px;
+    }
+    &__contain {
+      padding-top: 20px;
+      @include ColumnLeft(20px);
+    }
+  }
+}

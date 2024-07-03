@@ -89,3 +89,25 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .subtitle {
+    &__text {
+      font-size: 13px;
+    }
+
+    &__text_white {
+      font-size: 13px;
+    }
+  }
+  .title {
+    &__text {
+      font-size: 23px;
+      margin-bottom: 35px;
+    }
+
+    &__text_white {
+      font-size: 23px;
+      margin-bottom: 35px;
+    }
+  }
+}

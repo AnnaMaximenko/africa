@@ -132,3 +132,32 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-two {
+    margin-top: 140px;
+    &__container {
+      @include ColumnLeftReverse(20px);
+    }
+    &__title {
+      font-size: 23px;
+      width: 90%;
+    }
+    &__text {
+      font-size: 11px;
+    }
+    &__bus {
+      width: 250px;
+      height: 180px;
+    }
+    &__elephant {
+      display: none;
+    }
+    &__ornament {
+      display: none;
+    }
+    &__hr {
+      width: 135px;
+      margin-bottom: 20px;
+    }
+  }
+}

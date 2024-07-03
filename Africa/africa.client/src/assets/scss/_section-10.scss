@@ -104,3 +104,20 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-ten {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &__img {
+      max-height: 450px;
+    }
+
+    &__img-subtitle {
+      font-size: 23px;
+    }
+    &__small-text {
+      font-size: 11px;
+    }
+  }
+}

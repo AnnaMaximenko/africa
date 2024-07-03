@@ -3,7 +3,11 @@
   <footer class="footer center">
     <div class="footer__up">
       <div class="footer__logo">
-        <img src="../assets/img/Logo_Frika Safaris.svg" alt="logo" />
+        <img
+          src="../assets/img/Logo_Frika Safaris.svg"
+          class="footer__img"
+          alt="logo"
+        />
       </div>
       <div class="footer__link">
         <ul class="footer__column">

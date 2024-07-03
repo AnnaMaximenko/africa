@@ -108,3 +108,35 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-eleven {
+    &__ul {
+      padding-top: 10px;
+    }
+    &__li {
+      padding: 10px 0px 10px 2px;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__text {
+      padding-top: 10px;
+      font-size: 11px;
+    }
+    &__circle {
+      min-width: 30px;
+      min-height: 30px;
+    }
+    &__hr-one {
+      position: relative;
+      top: 1px;
+      left: 8px;
+    }
+    &__hr-two {
+      position: relative;
+      top: -1px;
+      left: 8px;
+      transform: rotateZ(90deg);
+    }
+  }
+}

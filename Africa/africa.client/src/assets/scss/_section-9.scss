@@ -140,3 +140,24 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-nine {
+    padding-bottom: 0px;
+
+    &__text {
+      font-size: 11px;
+    }
+
+    &__bus {
+      display: none;
+    }
+    &__ornament-one {
+      display: none;
+    }
+
+    a {
+      padding: 8px 18px;
+      font-size: 13px;
+    }
+  }
+}

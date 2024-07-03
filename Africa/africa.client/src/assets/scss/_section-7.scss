@@ -167,6 +167,9 @@
       width: 60px;
       // display: none;
     }
+    &__ornament-two {
+      display: none;
+    }
     &__ornament-four {
       display: none;
     }
@@ -174,6 +177,36 @@
       // display: none;
       left: -30px;
       top: -50px;
+    }
+    &__elephant {
+      display: none;
+    }
+    a {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 835px) {
+  .section-seven {
+    padding-bottom: 30px;
+    &__whitebox {
+      position: absolute;
+      background: $colorWhite;
+      width: 100%;
+      height: 500px;
+      // padding: 70px;
+    }
+    &__text {
+      font-size: 11px;
+      margin-bottom: 40px;
+    }
+    &__hr {
+      display: none;
+    }
+
+    &__ornamentwrap {
+      display: none;
     }
     &__elephant {
       display: none;

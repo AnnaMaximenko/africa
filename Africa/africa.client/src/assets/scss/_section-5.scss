@@ -261,3 +261,45 @@ input[type="radio"] {
     }
   }
 }
+@media (max-width: 835px) {
+  .section-five {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    &__box {
+      @include ColumnLeft(56px);
+    }
+    &__wrapper-left {
+      width: 100%;
+    }
+    &__wrapper-right {
+      width: 100%;
+    }
+    &__hr {
+      width: 135px;
+    }
+    &__title {
+      font-size: 23px;
+      margin-bottom: 30px;
+    }
+    &__text {
+      font-size: 11px;
+    }
+    &__hr {
+      margin-bottom: 30px;
+    }
+    &__slider {
+      max-height: 200px;
+    }
+    &__slider-img {
+      max-height: 350px;
+    }
+    &__count {
+      min-width: 50px;
+      font-size: 14px;
+    }
+    &__button-main {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+}

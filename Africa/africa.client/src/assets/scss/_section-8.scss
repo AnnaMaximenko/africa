@@ -107,3 +107,18 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-eight {
+    &__gallery {
+      @include ColumnCenter(20px);
+    }
+
+    &__img-subtitle-cost {
+      font-size: 23px;
+    }
+
+    &__small-text {
+      font-size: 11px;
+    }
+  }
+}

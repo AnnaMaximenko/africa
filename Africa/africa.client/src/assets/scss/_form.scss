@@ -63,3 +63,23 @@
     }
   }
 }
+
+@media (max-width: 835px) {
+  .form {
+    min-width: 270px;
+    min-height: 211px;
+    &__title {
+      font-size: 30px;
+    }
+    &__input {
+      font-size: 15px;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+    }
+    &__button {
+      font-size: 16px;
+      min-height: 50px;
+    }
+  }
+}

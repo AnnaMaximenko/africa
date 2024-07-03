@@ -76,3 +76,13 @@
     }
   }
 }
+@media (max-width: 835px) {
+  .section-six {
+    padding-top: 50px;
+
+    &__text {
+      font-size: 11px;
+      margin-bottom: 19px;
+    }
+  }
+}
